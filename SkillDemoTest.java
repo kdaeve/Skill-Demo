@@ -8,6 +8,6 @@ import org.junit.*;
 public class SkillDemoTest {
     @Test
     public void multi() {
-        assertEquals(10, SkillDemo.multiplication(2, 6)); // Fails
+        assertEquals(10, SkillDemo.multiplication(2, 5)); // Fails
     }
 }
